@@ -14,8 +14,8 @@ class Animation(CustomGraph):
 
     def construct(self):
         # Create Graph
-        np.random.seed(13)
-        I=30
+        np.random.seed(23460)
+        I=1000
         x_0 = np.array([0, 0.5, 0, 0.5])
         P_0 = np.zeros((4,4))
         (A, H, Q, R) = parameters()
